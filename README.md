@@ -1,5 +1,5 @@
 
-# Código para prácticas para ISO
+# Código para prácticas de ISO
 
 En este directorio encontrarás código, scripts y programas que usaremos durante el módulo de Implantación de Sistemas Operativos del ciclo de Administración de Sistemas y Redes.
 
