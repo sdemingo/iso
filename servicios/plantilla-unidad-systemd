@@ -1,0 +1,20 @@
+# 
+# Plantilla para crear un nuevo fichero de unidad de systemd
+#
+# Debe copiarse y editarse en:
+# /lib/systemd/system/nombreServicio.service
+#
+
+[Unit]
+Description=Un servicio de prueba
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=usuarioLanzador
+ExecStart=/usr/local/bin/nombreFichero
+
+[Install]
+WantedBy=multi-user.target
